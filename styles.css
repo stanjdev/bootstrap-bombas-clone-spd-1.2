@@ -1,0 +1,103 @@
+.jumbo-bg {
+  background-image: url("https://assets.bombas.com/image/fetch/c_crop,h_1080,w_2944/b_rgb:FFFFFF,c_scale,w_2944/f_auto,q_auto/https://images.ctfassets.net/82yv1oo3vsdy/1G1c4NhVv2pyHN5G6TSnVd/ba6c352b62f494511f178ab5acc4cbd1/Hero_Desktop_copy_3.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 600px;
+  /* border: solid 1px orange; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-nav {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-item {
+  height: 350px;
+  border-radius: 7px;
+}
+
+.bg-underwear {
+  background-image: url("https://assets.bombas.com/image/fetch/c_crop,h_1609,w_1448/b_rgb:FFFFFF,c_scale,w_720/f_auto,q_auto/https://images.ctfassets.net/82yv1oo3vsdy/4l1xEUj6eKSHAaUnKouHiS/ba70b7929110acecc7ce247bb8a44e48/Artboard_1_copy__2_.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-tshirts {
+  background-image: url("https://assets.bombas.com/image/fetch/c_crop,h_1609,w_1448/b_rgb:FFFFFF,c_scale,w_720/f_auto,q_auto/https://images.ctfassets.net/82yv1oo3vsdy/6ZLTDVaC3ji8tZ8l5so3RX/8b7aa4f2da84ed2ce03333ab560d06f3/Artboard_1_copy_2__2_.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-socks {
+  background-image: url("https://assets.bombas.com/image/fetch/c_crop,h_1609,w_1448/b_rgb:FFFFFF,c_scale,w_720/f_auto,q_auto/https://images.ctfassets.net/82yv1oo3vsdy/3moeGf0XRDzDv7M5Bsd6P5/b9988019f2f6909149e25a06ecde0d43/Artboard_1__9_.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-slippers {
+  background-image: url("https://assets.bombas.com/image/fetch/c_crop,h_1609,w_1448/b_rgb:FFFFFF,c_scale,w_720/f_auto,q_auto/https://images.ctfassets.net/82yv1oo3vsdy/L09HjbSBIGqLBPZYTu2KG/093b42b159e44bca239bc9b1355f3535/HP_CC_Slipper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.img-item-2 {
+  height: 400px;
+  border-radius: 7px;
+}
+
+.bg-women {
+  background-image: url("https://assets.bombas.com/image/fetch/c_crop,h_1448,w_1448/b_rgb:FFFFFF,c_scale,w_720/f_auto,q_auto/https://images.ctfassets.net/82yv1oo3vsdy/3NWgKXlo8CgTl7hfuSR32B/c7a3c4ebb33cb805c7123d5dfa168b2d/WOMEN__1_.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-men {
+  background-image: url("https://assets.bombas.com/image/fetch/c_crop,h_1448,w_1448/b_rgb:FFFFFF,c_scale,w_720/f_auto,q_auto/https://images.ctfassets.net/82yv1oo3vsdy/k4f1kVSmrdG2o6guD0NiZ/e5371dde52e7be9062e9d547448a5475/MEN__1_.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-kids {
+  background-image: url("https://assets.bombas.com/image/fetch/c_crop,h_1448,w_1448/b_rgb:FFFFFF,c_scale,w_720/f_auto,q_auto/https://images.ctfassets.net/82yv1oo3vsdy/y8rsq5o61Fly97ChacKFb/d71b936a8ce5350b163da0d97f93e4be/KIDS__1_.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bottom-links {
+  display: flex;
+}
+
+.bottom-links > ul > li {
+  line-height: 2.3;
+}
+
+.bottom-links > ul > li > a {
+  color: black;
+}
+
+.footer-links > small > a {
+  color: black;
+}
+
+footer {
+  margin-bottom: 25px;
+}
+
+.fa {
+  color: white;
+  min-height: 20px;
+  padding: 15px;
+}
