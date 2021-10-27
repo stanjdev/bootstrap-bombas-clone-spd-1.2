@@ -1,10 +1,11 @@
+/* https://bombas.com/ */
+
 .jumbo-bg {
   background-image: url("https://assets.bombas.com/image/fetch/c_crop,h_1080,w_2944/b_rgb:FFFFFF,c_scale,w_2944/f_auto,q_auto/https://images.ctfassets.net/82yv1oo3vsdy/1G1c4NhVv2pyHN5G6TSnVd/ba6c352b62f494511f178ab5acc4cbd1/Hero_Desktop_copy_3.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 600px;
-  /* border: solid 1px orange; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,6 +27,11 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.navbar-nav > li > a {
+  font-weight: bold;
+  color: black;
 }
 
 .img-item {
@@ -54,6 +60,16 @@ ul {
   background-repeat: no-repeat;
 }
 
+.donations-right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+}
+
+.donations-right-content > button {
+  width: 120px;
+}
 
 .img-item-2 {
   height: 400px;
@@ -78,6 +94,8 @@ ul {
 
 .bottom-links {
   display: flex;
+  justify-content: space-between;
+  width: 70%;
 }
 
 .bottom-links > ul > li {
@@ -90,6 +108,7 @@ ul {
 
 .footer-links > small > a {
   color: black;
+  margin-right: 15px;
 }
 
 footer {
